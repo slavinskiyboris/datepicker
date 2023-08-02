@@ -1,0 +1,139 @@
+.datePicker header {
+    display: flex;
+    justify-content: center;
+}
+.enter {
+    background: #4FB1EB;
+    margin-top: 14px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 169px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.button1 {
+    background: url("../../../public/1.svg") no-repeat center;
+    border: none;
+
+}
+.button2 {
+    background: url("../../../public/2.svg") no-repeat center;
+    border: none;
+}
+.button3 {
+    background: url("../../../public/3.svg") no-repeat center;
+    border: none;
+}
+.button4 {
+    background: url("../../../public/4.svg") no-repeat center;
+    border: none;
+}
+.cell {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.datePicker header button,
+.datePicker header select {
+    margin: 0 4px;
+}
+
+.datePicker table {
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: auto;
+}
+
+.datePicker th {
+    vertical-align: middle;
+    text-align: center;
+    height: 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.datePicker .day {
+    padding: 4px 8px;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid transparent;
+    color: #707070;
+}
+
+.datePicker .day:hover {
+    background-color: #eaeaea;
+}
+
+.datePicker .day.selected {
+    background-color: #4FB1EB;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+}
+
+.datePicker .day.today {
+    background-color: #0080ff;
+    color: white;
+}
+.datePicker .day.selectedEnd {
+    background-color: #4FB1EB;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
+
+.datePicker .day.today:hover {
+    background-color: #0080ff;
+}
+
+.datePicker .day.today.selected {
+    border: 2px solid lightgray;
+}
+.box {
+    border: 1px solid #4FB1EB;
+    border-radius: 10px;
+
+}
+.datePicker .day.selectedFromTo {
+    background: #ECF2FE;
+}
+.formattedFromTo {
+    display: flex;
+    gap: 13px;
+}
+.inputDiv {
+    background-color: #F2F2F2;
+    margin-bottom: 8px;
+    margin-top: 12px;
+    color: #707070;
+    border-radius: 10px;
+    padding-left: 13px;
+    padding-right: 10px;
+    height: 40px;
+}
+.inputDiv:nth-of-type(2) {
+    margin-right: 10px;
+}
+.inputDiv:nth-of-type(1){
+    margin-left: 12px;
+}
+.borderNone {
+    border: none;
+    background-color: #F2F2F2;
+}
+.selectedDate {
+    border: none;
+    text-align: center;
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+}
+.paragraphDiv {
+    margin-top: 9px;
+    margin-bottom: 11px;
+}
